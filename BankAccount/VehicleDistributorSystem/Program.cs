@@ -91,11 +91,11 @@ namespace VehicleDistributorSystem
         {
             List<Distributor> matchingDistributors = distributors.FindAll(d => d.VehicleType == vehicle.GetType());
 
-            Distributor bestMarginDistributor = matchingDistributors[0];
+            Distributor bestMarginDistributor = null;
 
             foreach (Distributor distributor in matchingDistributors)
             {
-                if (distributor.Margin > bestMarginDistributor.Margin)
+                if (bestMarginDistributor == null || distributor.Margin < bestMarginDistributor.Margin)
                 {
                     bestMarginDistributor = distributor;
                 }
@@ -103,6 +103,7 @@ namespace VehicleDistributorSystem
 
             return bestMarginDistributor;
         }
+
 
     }
 }
