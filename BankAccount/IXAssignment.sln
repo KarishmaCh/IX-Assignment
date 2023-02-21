@@ -7,7 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem", "EmployeeSystem\EmployeeSystem.csproj", "{98E5A6B2-B694-40E8-98DD-00347415A893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_Account_1", "Bank_Account_1\Bank_Account_1.csproj", "{E415AE03-B473-4ECC-B502-0D11BBAD5076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank_Account_1", "Bank_Account_1\Bank_Account_1.csproj", "{E415AE03-B473-4ECC-B502-0D11BBAD5076}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{C6EE7D97-F406-46AA-927B-33B426550F93}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\repos\ConsoleApp1\ConsoleApp3\BankAccount.cs = ..\..\..\repos\ConsoleApp1\ConsoleApp3\BankAccount.cs
+		..\..\..\repos\ConsoleApp1\ConsoleApp3\Program.cs = ..\..\..\repos\ConsoleApp1\ConsoleApp3\Program.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
