@@ -9,12 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSystem", "EmployeeS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank_Account_1", "Bank_Account_1\Bank_Account_1.csproj", "{E415AE03-B473-4ECC-B502-0D11BBAD5076}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{C6EE7D97-F406-46AA-927B-33B426550F93}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\repos\ConsoleApp1\ConsoleApp3\BankAccount.cs = ..\..\..\repos\ConsoleApp1\ConsoleApp3\BankAccount.cs
-		..\..\..\repos\ConsoleApp1\ConsoleApp3\Program.cs = ..\..\..\repos\ConsoleApp1\ConsoleApp3\Program.cs
-	EndProjectSection
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +28,10 @@ Global
 		{E415AE03-B473-4ECC-B502-0D11BBAD5076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E415AE03-B473-4ECC-B502-0D11BBAD5076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E415AE03-B473-4ECC-B502-0D11BBAD5076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C03A9FC-5F24-4B2C-9BF9-43D3A3EEEC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C03A9FC-5F24-4B2C-9BF9-43D3A3EEEC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C03A9FC-5F24-4B2C-9BF9-43D3A3EEEC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C03A9FC-5F24-4B2C-9BF9-43D3A3EEEC90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
