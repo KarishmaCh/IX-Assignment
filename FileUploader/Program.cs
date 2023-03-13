@@ -47,6 +47,7 @@ namespace FileUploader
                 string fileName = Path.GetFileName(file.Trim());
                 Console.WriteLine($"{fileName} ({times[fileName]} ms)");
             }
+            Console.ReadLine();
         }
 
         static async Task<string> UploadFile(string filePath, string destinationFolder)
@@ -105,7 +106,7 @@ namespace FileUploader
                 Console.WriteLine($"Error uploading {fileName}: {ex.Message}");
                 return "0";
             }
-
+            Console.ReadLine();
         }
 
 
