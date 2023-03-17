@@ -11,7 +11,6 @@ namespace CustomerWebApi.Service.Services
     public class CustomerLocationService : ICustomerLocation
     {
 
-
         public  List<CustomerLocation> _locations;
 
         public CustomerLocationService()
@@ -72,12 +71,11 @@ namespace CustomerWebApi.Service.Services
             
             if (_locations.Count(c => c.Id == locationId) == 1)
             {
-                // customer has only one location so delete entire customer as well
+                
                 _locations.Remove(customer);
                 return location;
             }
 
-            //_locations.Remove(location);
 
             if (_locations.Count(c => c.Id == locationId) == 0)
             {

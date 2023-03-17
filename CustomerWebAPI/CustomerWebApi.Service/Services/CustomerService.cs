@@ -56,7 +56,6 @@ namespace CustomerWebApi.Service.Services
             var customer = _customers.FirstOrDefault(c => c.Id == id);
 
 
-            //update fields from updated customer
             if (!string.IsNullOrEmpty(newCustomer?.Name))
             {
                 customer.Name = newCustomer.Name;
@@ -71,7 +70,6 @@ namespace CustomerWebApi.Service.Services
 
             return null;
         }
-
 
         public Customer DeleteCustomer(int id)
         {
