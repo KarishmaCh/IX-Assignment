@@ -1,0 +1,26 @@
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    
+    float: left;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+table {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
