@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/c188e2afe4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="menu-icon">
+      <i class="fa fa-bars fa-2x" style="color: #fff; width: 20px; height: 20px;"></i>
+    </div>
+
+    <div class="profile">
+      <div>
+        <img src="img/telescope.jpg" width="50px" height="40px">
+      </div>
+      <div style="margin-top: 5px;">
+        <img src="img/telescope.jpg" width="20px" height="20px">
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+          style="background-color: rgb(3, 126, 175); border: none;">SupplierTest11
+          <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div id="navbar">
+    <div style="text-align: center;">
+      <li>
+        <a href="#">Home</a>
+      </li>
+    </div>
+    <div style="margin-top: 5px; padding-right: 5px;">
+      <img src="img/nature1.jpg" width="40px" height="30px">
+      <img src="img/nature2.jpg" width="40px" height="30px">
+      <img src="img/nature3.jpg" width="40px" height="30px">
+    </div>
+  </div>
+  <div class="tab-with-pagination">
+    <div>
+      <div class="tab">
+
+        <button class="tablinks ">Open</button>
+        <button class="tablinks active">Draft</button>
+        <button class="tablinks">Closed</button>
+        <button class="tablinks">All</button>
+      </div>
+    </div>
+    <div>
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1"><i class="fa fa-less-than fa-regular"></i></a>
+        </li>
+        <li class="page-h6item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#"><i class="fa fa-greater-than"></i></a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#">50</i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="row div1">
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>REMOVAL</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>0</p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>Tues-test-4</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">Tues-test-4</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>CORRECTION</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>0</p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>Tues-third</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">Tues-third</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>REMOVAL</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>0</p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>Tues-2</b></small>
+          </div>
+          <div class="content1">
+            <p style=" font-size: medium;" class="card-names">Tues-2</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">0%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="red-font">3</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="red-font">3</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>CORRECTION</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>46</p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>0422</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">0422</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="red-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="red-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color">TOTAL</small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row div2">
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS III</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>CORRECTION</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>74</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 5px;">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>test-send-noti-2</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">test-send-noti</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>CORRECTION</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>76</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 5px;">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>test-noti-12</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">test-recall-noti</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="green-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">2</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS III</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>REMOVAL</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>76</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 5px;">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>test-qa-qa-sent-12</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">test-qa-qa-sent</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">0%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="red-font">3</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="red-font">3</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>TOTAL</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row text-center supplier-card-header">
+            <div class="col-md-4">
+              <i class="bi bi-briefcase-fill"></i>
+              <br>
+              <p>CLASS II</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-share-fill"></i>
+              <br>
+              <p>REMOVAL</p>
+            </div>
+            <div class="col-md-4">
+              <i class="bi bi-calendar2-minus"></i>
+              <br>
+              <p>77</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 5px;">
+            <small class="grey-color"><b>RECALL ID</b></small>
+            <small class="card-names"><b>test-recall-confirmation-123</b></small>
+          </div>
+          <div class="content1">
+            <p style="font-size: medium;" class="card-names">test-recall-confirmation</p>
+          </div>
+
+          <small class="grey-color"><b>PROGRESS INDICATOR</b></small>
+
+          <div class="text-center" style="margin-top: 20px;">
+            <p style="font-size:25px;" class="progress-color">100%</p>
+          </div>
+
+          <div class="container-fluid">
+            <div class="progress" style="height: 6px;">
+              <div class="progress-bar progress-view"></div>
+            </div>
+          </div>
+
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <small class="grey-color"><b>NOT ACKNOWLEDGED</b></small>
+              <br>
+              <p class="red-font">0</p>
+            </div>
+            <div class="col-md-6">
+              <small class="grey-color"><b>ACKNOWLEDGED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <small class="grey-color"><b>COMPLETED</b></small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color"><b>IN PROGRESS</b></small>
+              <br>
+              <p class="red-font">0</p>
+            </div>
+            <div class="col-md-4">
+              <small class="grey-color">TOTAL</small>
+              <br>
+              <p class="grey-font">1</p>
+            </div>
+          </div>
+
+          <div class="text-right">
+            <button class="btn btn-primary view-button">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
